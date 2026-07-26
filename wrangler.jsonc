@@ -2,6 +2,10 @@
   "name": "basearquitectura",
   "compatibility_date": "2026-07-02",
   "assets": {
-    "directory": "."
-  }
+    "directory": "./public"
+  },
+  "routes": [
+    { "pattern": "basearquitectura.com.ar", "custom_domain": true },
+    { "pattern": "www.basearquitectura.com.ar", "custom_domain": true }
+  ]
 }
